@@ -10,7 +10,7 @@ Consulte **[Implantação](#-implanta%C3%A7%C3%A3o)** para saber como implantar 
 
 <h2>Clique Aqui ⬇</h2> 
 Site em tempo real:
-https://portfolio-juanvictor-cmd.netlify.app
+https://super-mario-movie-juan.netlify.app
 
 ### 📋 Pré-requisitos
 
