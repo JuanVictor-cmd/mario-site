@@ -1,0 +1,96 @@
+main{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main-info{
+    width: 100%;
+    max-width: 570px;
+}
+
+.main-info p{
+    font-size: 18px;
+    margin: 20px 0 28px;
+}
+
+.main-info div{
+    display: flex;
+    column-gap: 32px;
+}
+
+.main-info div .link, .main-info div button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+} 
+
+.main-info div .link{
+    background: var(--red);
+}
+
+.main-info div button{
+    background: transparent;
+    border: 1px solid var(--green);
+}
+
+.seta{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (max-width: 1000px){
+    #marioeluigi{
+        width: 50%;
+    }
+
+    .logo{
+        width: 65%;
+    }
+
+    .main-info p{
+        font-size: 1rem;
+        margin: 20px 0 28px;
+        margin-left: 0.6rem;
+    }
+
+    .main-info div .link, .main-info div button{
+        width: 50%;
+        font-size: 1rem;
+        padding: 5px 0;
+    } 
+
+    .link{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .main-info div button{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 529px){
+    #marioeluigi{
+       display: none;
+    }
+
+    .main-info div .link, .main-info div button{
+        margin-bottom: 1.2rem;
+    }
+}
